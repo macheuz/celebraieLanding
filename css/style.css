@@ -372,7 +372,7 @@ p, span{
   
   #slider {
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 80%;
     overflow: hidden;
   }
@@ -381,13 +381,147 @@ p, span{
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: white;
     border: 0;
-    justify-content: center;
     align-items: center;
     font-size: 30px;
+    flex-direction: column;
+    padding: 0 1%;
   }
-  
+  .icon{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+  }
+  .iconImagem{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    background-image: url(/img/pessoa.webp);
+    background-size: contain;
+    border-radius: 50%;
+  }
+  .textoSlide{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 0 0 10px 10px;
+  }
+  .textoSlide h5{
+    text-align: center;
+    margin-top: 2%;
+    color: var(--azul-color);
+  }
+  .textoSlide p{
+    text-align: center;
+    padding: 5% 3%;
+    font-size: 25px;
+  }
+  .quintoBloco{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .quintoBloco >.centralizaBloco{
+    height: 90%;
+    /*background-color: green;*/
+  }
+  .quintoBlocoEsquerda{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue;*/
+    background-image: url(/img/celularApresentacao.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .quintoBlocoDireita{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
+  }
+  .tituloTextoBotaoQuintoBlocoDireita{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /*background-color: beige;*/
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tituloTextoBotaoQuintoBlocoDireita h1{
+    font-weight: 900;
+    font-size: 28px;
+  }
+  .iconTexto{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    /*background-color: purple;*/
+    align-items: center;
+    margin-top: 2%;
+  }
+  .iconeQuintoBloco{
+    width: 10%;
+    height: 90%;
+    background-image: url(/img/checkIcon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .textoQuintoBloco{
+    display: flex;
+    width: 90%;
+    /*background-color: white;*/
+    height: 90%;
+    align-items: center;
+  }
+  .botoesQuintoBloco{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    /*background-color: orange;*/
+    align-items: center;
+    justify-content: left;
+    margin-top: 2%;
+  }
+  .botoesQuintoBloco button{
+    padding: 2.5% 0%;
+    width: 27%;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 2%;
+    font-size: 14px;
+  }
+  .botoesQuintoBloco button:nth-of-type(1){
+    border: 1px solid var(--azul-color);
+    background-color: transparent;
+    color: var(--azul-color);
+  }
+  .botoesQuintoBloco button:nth-of-type(2){
+    background-color: var(--azul-color);
+    color: white;
+  }
+  .botoesQuintoBloco button:nth-of-type(1):hover{
+    border-color: var(--vermelho-color);
+    color: var(--vermelho-color);
+    cursor: pointer;
+  }
+  .botoesQuintoBloco button:nth-of-type(2):hover{
+    background-color: var(--vermelho-color);
+    cursor: pointer;
+  }
 
 
 
