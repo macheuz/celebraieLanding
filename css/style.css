@@ -177,13 +177,13 @@ p, span{
     color: var(--vermelho-color);
 }
 .vantagem:hover >.imagemV{
-    background-image: url(../img/testeIconRed.png);
+    background-image: url(./img/testeIconRed.png);
 }
 .imagemV{
     display: flex;
     width: 50%;
     height: 35%;
-    background-image: url(../img/testeIcon.png);
+    background-image: url(./img/testeIcon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -287,7 +287,7 @@ p, span{
     width: 65%;
     height: 65%;
     background-color: white;
-    background-image: url(../img/testeIcon.png);
+    background-image: url(./img/testeIcon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -308,7 +308,7 @@ p, span{
     display: flex;
     flex-direction: column;
     /*background-color: yellow;*/
-    background-image: url(../img/setaIcon.png);
+    background-image: url(./img/setaIcon.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 50%;
@@ -400,7 +400,7 @@ p, span{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa1.jpeg);
+    background-image: url(./img/iconPessoa1.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -409,7 +409,7 @@ p, span{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa2.jpeg);
+    background-image: url(./img/iconPessoa2.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -418,7 +418,7 @@ p, span{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa3.jpeg);
+    background-image: url(./img/iconPessoa3.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -427,7 +427,7 @@ p, span{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa4.jpeg);
+    background-image: url(./img/iconPessoa4.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -436,7 +436,7 @@ p, span{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa3.jpeg);
+    background-image: url(./img/iconPessoa3.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -477,7 +477,7 @@ p, span{
     justify-content: center;
     align-items: center;
     /*background-color: blue;*/
-    background-image: url(../img/celularApresentacao.png);
+    background-image: url(./img/celularApresentacao.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -512,7 +512,7 @@ p, span{
   .iconeQuintoBloco{
     width: 10%;
     height: 90%;
-    background-image: url(../img/checkIcon.png);
+    background-image: url(./img/checkIcon.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
